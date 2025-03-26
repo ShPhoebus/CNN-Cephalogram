@@ -20,8 +20,9 @@ This project presents a Convolutional Neural Network model trained to predict ov
 
 ---
 
-<details> <summary><strong>📁 Project Structure (click to expand)</strong></summary>
+## 📁 Project Structure
 
+```
 ├── Code/
 │   ├── chrome-win64/               # Automated downloading tool (Selenium-based)
 │   ├── Landmarks_CSV/              # Downloaded landmark CSVs
@@ -37,8 +38,7 @@ This project presents a Convolutional Neural Network model trained to predict ov
 │
 ├── code_evaluation/               # Model evaluation & SDR / MSE analysis
 │   └── evaluation.py              # Run this to get SDR and MSE results
-
-</details>
+```
 
 ---
 
