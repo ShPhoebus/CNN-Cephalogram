@@ -22,21 +22,9 @@ This project presents a Convolutional Neural Network model trained to predict ov
 
 ## 📁 Project Structure
 
-├── Code/
-│   ├── chrome-win64/               # Automated downloading tool (Selenium-based)
-│   ├── Landmarks_CSV/              # Downloaded landmark CSVs
-│   ├── image/                      # Raw cephalogram images
-│   ├── processCSV/                 # Processed data outputs
-│   ├── best results code/         # Best training + model combo (final model)
-│   ├── images web crawler.py      # Downloads images
-│   ├── CSV web crawler.py         # Downloads landmark CSVs
-│   ├── annote auto.py             # Auto-annotates reference points (Sella/Nasion)
-│   ├── crop images.py             # Crops images to 800x800
-│   ├── data_process.py            # Preprocessing, filtering, coordinate transform
-│   └── combine_data.py            # Combines datasets
-│
-├── code_evaluation/               # Model evaluation & SDR / MSE analysis
-│   └── evaluation.py              # Run this to get SDR and MSE results
+├── Code/ │ ├── chrome-win64/ # Automated downloading tool (Selenium-based) │ ├── Landmarks_CSV/ # Downloaded landmark CSVs │ ├── image/ # Raw cephalogram images │ ├── processCSV/ # Processed data outputs │ ├── best results code/ # Best training + model combo (final model) │ ├── images web crawler.py # Downloads images │ ├── CSV web crawler.py # Downloads landmark CSVs │ ├── annote auto.py # Auto-annotates reference points (Sella/Nasion) │ ├── crop images.py # Crops images to 800x800 │ ├── data_process.py # Preprocessing, filtering, coordinate transform │ └── combine_data.py # Combines datasets │ ├── code_evaluation/ # Model evaluation & SDR / MSE analysis │ └── evaluation.py # Run this to get SDR and MSE results
+
+---
 
 ## ⚙️ How to Use
 
