@@ -66,7 +66,7 @@ Includes downloading, preprocessing, CNN modeling, and training.
 - CNN model construction, training, and prediction  
 - Visualizing predicted landmark positions on the original cephalometric images
 
-## 📂 Required Input Files
+# 📂 Required Input Files
 
 1. **`Mathews_arrays.npz`**  
    This file contains all processed image arrays and corresponding landmark labels.  
@@ -80,7 +80,7 @@ Includes downloading, preprocessing, CNN modeling, and training.
    You can skip training and directly load the pre-trained model from this file.  
    📁 Available in the GitHub repository under `Code/`
 
-## 📤 Output Files Generated
+# 📤 Output Files Generated
 
 Running `CNN_Modeling.ipynb` will generate the following CSVs for downstream evaluation:
 
