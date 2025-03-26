@@ -24,7 +24,6 @@ This project presents a Convolutional Neural Network model trained to predict ov
 
 ```
 ├── Code/
-│   ├── best results code/          # Best training + model combo (final model)
 │   ├── images web crawler.py       # Downloads images
 │   ├── CSV web crawler.py          # Downloads landmark CSVs
 │   ├── annote auto.py              # Auto-annotates reference points (Sella/Nasion)
