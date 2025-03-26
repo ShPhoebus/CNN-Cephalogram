@@ -24,20 +24,19 @@ This project presents a Convolutional Neural Network model trained to predict ov
 
 ```
 ├── Code/
-│   ├── chrome-win64/               # Automated downloading tool (Selenium-based)
-│   ├── Landmarks_CSV/              # Downloaded landmark CSVs
-│   ├── image/                      # Raw cephalogram images
-│   ├── processCSV/                 # Processed data outputs
-│   ├── best results code/         # Best training + model combo (final model)
-│   ├── images web crawler.py      # Downloads images
-│   ├── CSV web crawler.py         # Downloads landmark CSVs
-│   ├── annote auto.py             # Auto-annotates reference points (Sella/Nasion)
-│   ├── crop images.py             # Crops images to 800x800
-│   ├── data_process.py            # Preprocessing, filtering, coordinate transform
-│   └── combine_data.py            # Combines datasets
+│   ├── best results code/          # Best training + model combo (final model)
+│   ├── images web crawler.py       # Downloads images
+│   ├── CSV web crawler.py          # Downloads landmark CSVs
+│   ├── annote auto.py              # Auto-annotates reference points (Sella/Nasion)
+│   ├── annote manually.py          # Manually annotate landmarks for selected images
+│   ├── checked_filename.py         # Checks which annotation files have corresponding images
+│   ├── crop images.py              # Crops images to 800x800
+│   ├── data_process.py             # Preprocessing, filtering, coordinate transformation
+│   ├── combine_data.py             # Combines multiple datasets
+│   ├── CNN_Modeling.ipynb          # CNN training, prediction, visualization notebook
+│   └── best_model.h5               # Final trained model for direct prediction
 │
 ├── code_evaluation/               # Model evaluation & SDR / MSE analysis
-│   └── evaluation.py              # Run this to get SDR and MSE results
 ```
 
 ---
